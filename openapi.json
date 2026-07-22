@@ -196,7 +196,7 @@
                     "type": "string",
                     "description": "string"
                   },
-                  "price": {
+                  "disprice": {
                     "type": "number",
                     "description": "number"
                   },
