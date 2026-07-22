@@ -203,10 +203,6 @@
                   "qty": {
                     "type": "number",
                     "description": "number"
-                  },
-                   "psku": {
-                    "type": "string",
-                    "description": "string"
                   }
                 }
               }
