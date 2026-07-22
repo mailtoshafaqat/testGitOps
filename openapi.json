@@ -199,6 +199,10 @@
                   "price": {
                     "type": "number",
                     "description": "number"
+                  },
+                  "qty": {
+                    "type": "number",
+                    "description": "number"
                   }
                 }
               }
