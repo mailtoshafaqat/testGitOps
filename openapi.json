@@ -203,6 +203,10 @@
                   "qty": {
                     "type": "number",
                     "description": "number"
+                  },
+                   "sku": {
+                    "type": "string",
+                    "description": "string"
                   }
                 }
               }
