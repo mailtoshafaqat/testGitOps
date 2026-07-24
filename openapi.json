@@ -166,57 +166,7 @@
           }
         }
       },
-      "post": {
-        "summary": "Create order",
-        "parameters": [
-          {
-            "name": "delay",
-            "in": "query",
-            "schema": {
-              "type": "integer"
-            },
-            "description": "Simulate latency in ms (Pro+)"
-          },
-          {
-            "name": "error",
-            "in": "query",
-            "schema": {
-              "type": "integer"
-            },
-            "description": "Force HTTP status (Pro+)"
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "title": {
-                    "type": "string",
-                    "description": "string"
-                  },
-                  "price": {
-                    "type": "number",
-                    "description": "number"
-                  },
-                  "qty": {
-                    "type": "number",
-                    "description": "number"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "responses": {
-          "201": {
-            "description": "Created"
-          }
-        }
-      }
-    },
-    "/order/{id}": {
+      "/order/{id}": {
       "get": {
         "summary": "Get order by id",
         "parameters": [
